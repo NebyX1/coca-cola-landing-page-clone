@@ -1,0 +1,148 @@
+.footer-logo {
+    height: 5vh;
+    width: 25vh;
+}
+
+.navbar-logo {
+    height: 4vh;
+    width: 22vh;
+    margin-left: 3vh;
+    margin-right: 2vh;
+}
+
+.color-footer {
+    background-color: #4A4A4A;
+}
+
+.text-color-footer {
+    color: #F2F2F2;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.no-underline:hover {
+    color: #cccbcb;
+}
+
+@media (max-width: 960px) {
+    .bar-hide {
+        display: none;
+    }
+}
+
+.icon-format {
+    color: #383737;
+}
+
+.icon-format:hover {
+    color: #8f8d8d;
+}
+
+.link-color {
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+.link-color:hover {
+    border-bottom: 2px solid red;
+}
+
+.bloque {
+    height: 75vh;
+}
+
+.masthead1 {
+    height: 100vh;
+    background-image: url('/Images/1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead2 {
+    height: 100vh;
+    background-image: url('/Images/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead3 {
+    height: 100vh;
+    background-image: url('/Images/3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead4 {
+    height: 100vh;
+    background-image: url('/Images/4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead5 {
+    height: 100vh;
+    background-image: url('/Images/5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rowhight {
+    height: 33.33vh;
+}
+
+.estilo_text {
+    margin-right: 10vh;
+    font-weight: 700;
+    color: rgb(236, 231, 231);
+    text-shadow: 2px 2px #574444;
+    font-size: 40px !important;
+}
+
+@media (max-width: 1100px) {
+    .estilo_text {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .estilo_text {
+        font-size: 26 px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .estilo_text {
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .estilo_text {
+        font-size: 18px !important;
+    }
+}
+
+.funny-thing {
+    font-size: larger !important;
+    text-decoration: none !important;
+    color: rgb(236, 231, 231) !important;
+    text-shadow: 2px 2px #574444 !important;
+}
+
+.funny-thing:hover {
+    padding-left: 3vh;
+    transition: padding 1.5s;
+}
